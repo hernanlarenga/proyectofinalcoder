@@ -1,0 +1,49 @@
+.logoToro {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+.navegador {
+  background-color: black;
+  border-top: solid red 20px;
+}
+section ul li a {
+  color: white;
+  text-transform: uppercase;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  padding: 0 15px;
+}
+a:hover {
+  background-color: red;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.titulo {
+  color: red;
+}
+
+.btnContacto {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px;
+  margin: 10px;
+}
+.carrusel {
+  object-fit: contain;
+}
+.foot {
+  border-top: 1px solid black;
+  font-weight: bold;
+  background-color: red;
+  border-bottom: solid black 20px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
