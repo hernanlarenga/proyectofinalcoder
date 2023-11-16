@@ -55,8 +55,8 @@
       <button type="button" class="btn btn-danger btnContacto">contacto</button>
     </nav>
     <!--FORMULARIO-->
-    <div class="containerForm">
-      <div class="infoForm">
+    <div class="row containerForm container">
+      <div class="col-xl-4 col-md-6 col-sm-12">
         <h2>Contactanos</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et
@@ -69,18 +69,18 @@
         <a href="#"><i class="fa fa-envelope"></i>Bullsuplementos@ gmail.com</a>
         <a href="#"> <i class="fa fa-map-marked"></i> Santa Fe, Argentina</a>
       </div>
-      <form action="# " autocomplete="off">
+      <form action="# " autocomplete="off" class="col-xl-8 col-md-6 col-sm-12">
         <input
           type="text"
           name="Nombre"
-          placeholder="Ingresa tu nombre"
+          placeholder="Ingrese tu nombre"
           class="campo"
         />
         <input
           type="email"
           name="email"
           id=""
-          placeholder="Ingresa tu email"
+          placeholder="Ingrese tu email"
           class="campo"
         />
         <textarea
@@ -89,8 +89,14 @@
           cols="30"
           rows="10"
           placeholder="Deje su mensaje.."
+          class="col-xl-12 col-md-6 col-sm-12"
         ></textarea>
-        <input type="submit" name="enviar" value="enviar" class="btn-enviar" />
+        <input
+          type="submit"
+          name="enviar"
+          value="enviar"
+          class="btn-enviar col-xl-12 col-md-6 col-sm-12"
+        />
       </form>
     </div>
     <!--WHATSAPP-->
