@@ -1,6 +1,9 @@
+/*VARIABLE*/
+$color: red;
+
 .navegador {
   background-color: black;
-  border-top: solid red 20px;
+  border-top: solid $color 20px;
 }
 
 ul li a {
@@ -9,21 +12,27 @@ ul li a {
   margin: 10px;
   text-decoration: none;
   font-weight: bold;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
+  border-left: 1px solid $color;
+  border-right: 1px solid $color;
   padding: 0 15px;
 }
 
-.nav-item:hover {
-  background-color: red;
+.nav-item {
   border-radius: 5px;
-  padding: 5px;
+
+  height: 30px;
+  transition: all 1s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .tituloPag {
   font-weight: bold;
-  color: red;
+  color: $color;
   text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 button a {

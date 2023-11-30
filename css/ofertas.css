@@ -7,10 +7,10 @@
   margin-top: 50px;
   margin-bottom: 50px;
   font-weight: bold;
+  transition: all 1s;
 }
 .imgOf:hover {
-  background-color: black;
-  color: white;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=ofertas.css.map */

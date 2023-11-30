@@ -1,16 +1,21 @@
 /* OFERTAS*/
+@mixin transicion {
+  transition: all 1s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
 
 .imgOf {
   display: flex;
   flex-direction: column;
+
   align-items: center;
+
   padding: 5px;
   margin-top: 50px;
   margin-bottom: 50px;
   font-weight: bold;
 
-  &:hover {
-    background-color: black;
-    color: white;
-  }
+  @include transicion;
 }

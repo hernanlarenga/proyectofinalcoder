@@ -1,3 +1,4 @@
+/*VARIABLE*/
 .navegador {
   background-color: black;
   border-top: solid red 20px;
@@ -14,16 +15,21 @@ ul li a {
   padding: 0 15px;
 }
 
-.nav-item:hover {
-  background-color: red;
+.nav-item {
   border-radius: 5px;
-  padding: 5px;
+  height: 30px;
+  transition: all 1s;
+}
+.nav-item:hover {
+  transform: scale(1.1);
 }
 
 .tituloPag {
   font-weight: bold;
   color: red;
   text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 button a {
